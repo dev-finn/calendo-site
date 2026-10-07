@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev-finn.github.io/calendo-site/sitemap.xml
