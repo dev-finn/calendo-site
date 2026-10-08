@@ -587,3 +587,11 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
 }
 .live > div { min-width: 0; }
 .live b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Publisher credit: the Digilize Agency logo drawn in the current text colour,
+   so one file works in light and dark mode. */
+.site-footer .made-by { flex-basis: 100%; display: inline-flex; align-items: center; gap: 12px; width: fit-content; color: var(--text-2); }
+.site-footer .made-by:hover { color: var(--text); text-decoration: none; }
+.site-footer .made-by span:first-child { font-size: 0.85rem; letter-spacing: 0.01em; }
+.digilize-logo { display: inline-block; height: 22px; aspect-ratio: 431.04 / 65.58; background-color: currentColor;
+  -webkit-mask: url(img/digilize-agency.svg) no-repeat center / contain; mask: url(img/digilize-agency.svg) no-repeat center / contain; }
